@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>BlackJack</title>
+    <link rel="stylesheet" 
+    href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" 
+    integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" 
+    crossorigin="anonymous">
+    <link rel="stylesheet" href="css/estilo.css">
+</head>
+<body>
+    <header class="cabecera">Black Jack</header>
+    <main>
+        <div class="row mt-2">
+            <div id="boton" class="col text-center">
+                <button class="btn btn-danger" id="btnNuevo">Nuevo Juego</button>
+                <button class="btn btn-primary" id="btnPedir">Pedir Carta</button>
+                <button class="btn btn-primary" id="btnPasar">Pasar</button>
+            </div>
+        </div>
+        
+        <div class="row mt-2 container text-center">
+            <div class="col">
+                <h1>Banca - <small>0</small></h1>
+                <div id="banca-cartas" style="border-style: solid;"></div>
+            </div>
+        </div>
+
+        <div class="row container text-center">
+            <div class="col-2" >
+                <h1>Jugador 1 - <small>0</small></h1>
+                <div id="jugador-cartas"></div>
+                <h4>Dinero- <h5>0</h5></h4>
+            </div>
+            <div class="col-2">
+                <h1>Jugador 2 - <small>0</small></h1>
+                <div id="jugador-cartas-2"></div>
+                <h4>Dinero- <h5>0</h5></h4>
+            </div>
+            <div class="col-2">
+                <h1>Jugador 3 - <small>0</small></h1>
+                <div id="jugador-cartas-3"></div>
+                <h4>Dinero- <h5>0</h5></h4>
+            </div>
+            <div class="col-2">
+                <h1>Jugador 4 - <small>0</small></h1>
+                <div id="jugador-cartas-4"></div>
+                <h4>Dinero- <h5>0</h5></h4>
+            </div>
+            <div class="col-2">
+                <h1>Jugador 5 - <small>0</small></h1>
+                <div id="jugador-cartas-5"></div>
+                <h4>Dinero- <h5>0</h5></h4>
+            </div>
+            <div class="col-2">
+                <h1>Jugador 6 - <small>0</small></h1>
+                <div id="jugador-cartas-6"></div>
+                <h4>Dinero- <h5>0</h5></h4>
+            </div>
+        </div>
+        <div class="row container text-center">
+            <div id="ganador"></div>
+        </div>
+
+        
+    </main>
+    <script src="js/underscore.js"></script>
+    <script src="js/juego.js"></script>
+   
+</body>
+</html>

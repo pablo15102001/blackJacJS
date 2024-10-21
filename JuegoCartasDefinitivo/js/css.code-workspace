@@ -1,0 +1,16 @@
+{
+	"folders": [
+		{
+			"path": "../../../ED/JuegoCartasDefinitivo/css"
+		},
+		{
+			"path": "../../../ED/JuegoCartasDefinitivo/img"
+		},
+		{
+			"path": "../../../ED/JuegoCartasDefinitivo/js"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "img"
+	}
+}

@@ -1,0 +1,48 @@
+html, body {
+    background-color: #2f4f30;
+    color: white;
+}
+.cabecera{
+    text-align: center;
+    background-color: black;
+    color:white;
+    padding: 20px;
+    font-size: 1.5em;
+}
+main {
+    height:100vh;
+    width: 100vw;
+    display: flex; /* Usar flexbox para el contenedor principal */
+    flex-direction: column; /* Colocar los elementos en columna */
+    align-items: center; /* Alinear todos los elementos al centro */
+    justify-content: center; /* Alinear verticalmente en el centro */
+    
+    max-width: 1905px; 
+    margin: 0 auto; 
+    
+    position: relative; 
+}
+.carta{
+    position: relative;
+    width: 100px;
+    left: 43px;
+    margin-left: -80px;
+    padding-top: 15px;
+    
+}
+#banca-cartas, #jugador-cartas,#jugador-cartas-2,#jugador-cartas-3,#jugador-cartas-4,#jugador-cartas-5,#jugador-cartas-6 {
+    height: 220px;
+    border-style: solid;
+    border-radius: 20%;
+}
+#boton {
+    padding-bottom: 20px;
+}
+#ganador {
+    font-weight: bold;
+    font-size: 1.5em;
+    color: rgb(127, 157, 255);
+    position: absolute;
+    left: 50%;
+    bottom: 0%;
+}
